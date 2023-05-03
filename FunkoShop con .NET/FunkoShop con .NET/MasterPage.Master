@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="FunkoShop_con.NET.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="index.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header> <!-- comienzo de Header -->
+        <nav class="navBar container">
+            <picture class=" navBar__logo">
+                <a href="Index.aspx">
+                      <img src="./image/multimedia/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funko Pop">
+                </a>
+            </picture>
+            <ul class="navBar__menu">
+                <li class="navegador__menu-item whit-Submenu">
+                    <a class="navBar__link whit-Icon" href="Shop.aspx">SHOP <iconify-icon icon="mdi:chevron-down"></iconify-icon></a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">FUNKOS</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">REMERAS</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">LLAVEROS</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navegador__menu-item">
+                    <a class="navBar__link" href="./pages/contact.html">CONTACTO</a>
+                </li>
+                <li class="navegador__menu-item">
+                    <a class="navBar__link" href="./pages/login.html">LOGIN</a>
+                </li>
+                <li class="navegador__menu-item">
+                    <a class="navBar__cart" href="./pages/carrito.html">
+                        <img src="./image/multimedia/icons/cart-icon.svg" alt="ícono de carrito">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header><!-- Fin de Header -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer>
+            <nav class="navBar container">
+                <ul class="navBar__item">
+                    <li class="navBar__item"> 
+                        <a class="navBar__link" href="./pages/shop.html">SHOP</a>
+                    </li>
+                    <li class="navBar__item">
+                        <a class="navBar__link" href="./pages/register.html">REGISTRARSE</a>
+                    </li>
+                    <li class="navBar__item">
+                        <a class="navBar__link" href="./pages/login.html">LOGIN</a>
+                    </li>
+                    <li class="navBar__item">
+                        <a class="navBar__link" href="./pages/contact.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <picture>
+                    <img src="./image/multimedia/branding/isotype.svg" alt="Isotipo de la marca Funkoshop">
+                </picture>
+            </nav>
+        <p class="Footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer>
+        </div>
+    </form>
+</body>
+</html>
