@@ -5,7 +5,7 @@
     <main>
         <aside>
             <section>
-                <form action="">
+                
                     <div>
                         <p>BUSCAR</p>
                         <input type="text" name="producto">
@@ -44,7 +44,7 @@
                             </li>
                         </ul>
                     </div>
-                </form>    
+                 
             </section>
         </aside>
         <section>
