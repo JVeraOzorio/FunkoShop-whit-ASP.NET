@@ -172,8 +172,9 @@ header{
 
 /* HERO */
 
-.Hero{
-    background-image: url(../image/multimedia/funkos-banner.webp);
+.Hero {
+
+    background-image: url('imagenes/funkos-banner.jpeg');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;

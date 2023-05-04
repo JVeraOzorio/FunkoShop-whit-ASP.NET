@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="imagenes\funkos-banner.jpeg" />
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
     <Content Include="index.css" />
