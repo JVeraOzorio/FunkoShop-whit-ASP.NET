@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="imagenes\cart-icon.svg" />
+    <Content Include="imagenes\isotype.svg" />
+    <Content Include="imagenes\logo_light_horizontal.svg" />
     <Content Include="Pages\Admin.aspx" />
     <Content Include="Pages\CreateAccount.aspx" />
     <Content Include="imagenes\funkos-banner.jpeg" />
