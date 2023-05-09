@@ -14,5 +14,12 @@ namespace FunkoShop_con.NET
           
           
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+           // String email = txtEmail.Text;
+            //lblEmail.Text = "tu email es " + email;
+
+        }
     }
 }

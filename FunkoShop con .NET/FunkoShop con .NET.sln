@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunkoShop con .NET", "FunkoShop con .NET\FunkoShop con .NET.csproj", "{772ABFAF-38D9-4E9E-BB52-38023C89B53F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{3B39CB94-4256-4AD2-8D96-47121FB4A947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{3AD516EE-ADC8-4EBA-94CD-14FE22BC3CD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{772ABFAF-38D9-4E9E-BB52-38023C89B53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{772ABFAF-38D9-4E9E-BB52-38023C89B53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{772ABFAF-38D9-4E9E-BB52-38023C89B53F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B39CB94-4256-4AD2-8D96-47121FB4A947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B39CB94-4256-4AD2-8D96-47121FB4A947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B39CB94-4256-4AD2-8D96-47121FB4A947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B39CB94-4256-4AD2-8D96-47121FB4A947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD516EE-ADC8-4EBA-94CD-14FE22BC3CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD516EE-ADC8-4EBA-94CD-14FE22BC3CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD516EE-ADC8-4EBA-94CD-14FE22BC3CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD516EE-ADC8-4EBA-94CD-14FE22BC3CD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,14 +18,14 @@
 
                     <div class="Login__check">
 
-                         <asp:Button CssClass="Login__button"  runat="server" ID="btnLogin" Text="Ingresar"/>
+                         <asp:Button CssClass="Login__button"  runat="server" ID="btnLogin" Text="Ingresar" OnClick="btnLogin_Click"/>
                     
                          <div>
                             <asp:CheckBox runat="server" ID="chkRemember" />
                             <label class="Login__record" for="Recordarme">Recordarme</label>
                          </div>
 
-                    </div>
+                    </div>      
 
                 <a href="pepe" >Olvidé mi contraseña</a>
         </article>

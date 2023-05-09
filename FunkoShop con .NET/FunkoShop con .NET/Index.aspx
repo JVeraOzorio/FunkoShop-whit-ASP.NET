@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
       <section class= "Hero">
         <article class="Hero__content container">
             <h3 class="Hero__title">Nuevos Ingresos</h3>
@@ -10,6 +11,7 @@
         </article>
     </section>
     <main class="MainContainer container">
+
         <section  class="Collection container">
             <article class="Collection__content">
                 <h3 class="Collection__title">Star Wars &The Mandalorian </h3>   
@@ -18,6 +20,7 @@
             </article>
             <picture class="Collection__cover"><img src="./image/multimedia/star-wars/baby-yoda-1.webp" alt="Figura coleccionable de Grogu de la serie The Mandalorian"></picture>
         </section>
+
         <section class="Collection container">
             <article class="Collection__content">
                 <h3 class="Collection__title">POKEMON INDIGO</h3>   
@@ -26,6 +29,7 @@
             </article>
             <picture class="Collection__cover"><img src="./image/multimedia/pokemon/vulpix-1.webp" alt="Figura coleccionable de Vulpix de la serie Pokemon"></picture>
         </section>
+
         <section class="Collection container">
             <article class="Collection__content">
                 <h3 class="Collection__title">HARRY POTTER</h3>   
@@ -34,7 +38,9 @@
             </article>
             <picture class="Collection__cover"><img src="./image/multimedia/harry-potter/snape-patronus-1.webp" alt="Figura coleccionable de patronus de Snape de la pelicula Harry Potter"></picture>
         </section>
+
         <section class="Slider container">
+
             <h2 class="Slider__title">últimos lazamientos</h2>
             <ul class="Slider__items">
                 <li class="Slider__item">
