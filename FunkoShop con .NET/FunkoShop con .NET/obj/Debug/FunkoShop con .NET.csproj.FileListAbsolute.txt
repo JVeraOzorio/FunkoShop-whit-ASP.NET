@@ -57,3 +57,7 @@ C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop co
 C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\FunkoShop con .NET\obj\Debug\FunkoShop con .NET.csproj.CopyComplete
 C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\FunkoShop con .NET\obj\Debug\FunkoShop_con.NET.dll
 C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\FunkoShop con .NET\obj\Debug\FunkoShop_con.NET.pdb
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\FunkoShop con .NET\bin\Dominio.dll
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\FunkoShop con .NET\bin\Negocio.dll
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\FunkoShop con .NET\bin\Dominio.pdb
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\FunkoShop con .NET\bin\Negocio.pdb

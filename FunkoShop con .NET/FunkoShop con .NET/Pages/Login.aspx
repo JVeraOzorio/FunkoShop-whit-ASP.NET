@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="FunkoShop_con.NET.Login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="FunkoShop_con.NET.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -6,7 +6,7 @@
         <main><!-- beginning of the header-->
         <article class="Login">
 
-                <h2 class="Login__title">INGRESAR A MI CUENTA</h2>
+               <h2 class="Login__title">INGRESAR A MI CUENTA</h2>
 
                     <div class="Login__content">
                         <label class="Login__text"  for="E-MAIL">E-MAIL:</label>
@@ -25,9 +25,12 @@
                             <label class="Login__record" for="Recordarme">Recordarme</label>
                          </div>
 
-                    </div>      
-
-                <a href="pepe" >Olvidé mi contraseña</a>
+                    </div>     
+            
+                   <div>
+                       <a href="pepe" >Olvidé mi contraseña</a>
+                       <a href="CreateAccount.aspx">Crear cuenta</a>
+                   </div>
         </article>
     </main><!-- end of the main -->
 </asp:Content>

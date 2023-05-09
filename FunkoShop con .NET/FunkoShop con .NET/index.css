@@ -172,9 +172,9 @@ header{
 
 /* HERO */
 
-.Hero {
-
-    background-image: url('imagenes/funkos-banner.jpeg');
+.Hero{
+    
+    background-image: url(../image/multimedia/funkos-banner.webp);
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -401,7 +401,7 @@ footer{
 }
 
 .Login a{
-    padding-bottom: 20px;
+    padding: 20px 7px 10px 20px;
     color: var(--secondary-solid);
 }
 
@@ -418,11 +418,13 @@ footer{
     color: var(--dark-font-solid);
     font-weight: 400;
     grid-column: 3;
+    padding: 15px;
 }
 
 .Login__inputTxt{
     border: none;
     border-bottom: 2px solid var(--primary-900);
+    padding: 10px;
 }
 
 .Login__button{
@@ -454,3 +456,13 @@ footer{
     padding: var(--spacing-24) 0;
 }
 
+/* Create Account */
+
+.CreateAcount__content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: var(--spacing-16);
+    align-items:baseline;
+    padding: var(--spacing-36) 0;
+
+}
