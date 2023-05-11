@@ -1,5 +1,9 @@
-﻿using System;
+﻿using Dominio;
+using Negocio;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -17,9 +21,26 @@ namespace FunkoShop_con.NET
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-           // String email = txtEmail.Text;
-            //lblEmail.Text = "tu email es " + email;
+            UsuarioNegocio negocio = new UsuarioNegocio();
+            AccesoDatos data = new AccesoDatos();
+            string email = txtEmail.Text;
+            string password = txtPassword.Text;
 
+
+           bool read = negocio.login(email, password);
+
+           if (read)
+            {
+                Response.Redirect("Index.aspx");
+            }else
+            {
+                lblError.Text = "Usuario o contraseña incorrectos";
+            }
+           
+            
+            
+
+            data.CloseConnection();
         }
     }
 }

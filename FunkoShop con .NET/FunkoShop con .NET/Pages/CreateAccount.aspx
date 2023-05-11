@@ -15,25 +15,25 @@
                 <div class="CreateAcount__content">
 
                     <label class="Login__text" for="Nombre">Nombre:</label>
-                    <input class="Login__inputTxt" type="text" name="Nombre" id="Nombre" required>
+                    <asp:TextBox ID="txtNombre" CssClass="Login__inputTxt" placeholder="Nombre" Type="Nombre" nome="Nombre" required ="true"  runat="server" />
                
                     <label class="Login__text" for="Apellido">Apellido:</label>
-                    <input class="Login__inputTxt" type="text" nambe= "Apellido"  required>
+                    <asp:TextBox ID="txtApellido" CssClass="Login__inputTxt" placeholder="Apellido" Type="Apellido" nome="Apellido" required ="true"  runat="server" />
                 
                     <label class="Login__text" for="Email">Email:</label>
-                    <input class="Login__inputTxt" type="email" name="Email"  required>
+                    <asp:TextBox ID="txtEmail" CssClass="Login__inputTxt" placeholder="Email" Type="Email" nome="Email" required ="true"  runat="server" />
                 
                     <label class="Login__text" for="Contraseña">Contraseña:</label>
-                    <input class="Login__inputTxt" type="password" name="Contraseña" required>
+                    <asp:TextBox ID="txtPassword" CssClass="Login__inputTxt" placeholder="Contraseña" Type="Contraseña" nome="Contraseña" required ="true"  runat="server" />
                 
                     <label class="Login__text" for="Repita Contraseña">Repita Contraseña:</label>
-                    <input class="Login__inputTxt" type="password" name="Repita Contraseña"  required>
+                    <asp:TextBox ID="txtRepitaContraseña" CssClass="Login__inputTxt" placeholder="Repita Contraseña" Type="RepitaContraseña" nome="RepitaContraseña" required ="true"  runat="server" />
                     
                  </div>
 
                  <div class="Login__check">
 
-                     <button class="Login__button" type="submit">Registrar</button>   
+                     <asp:Button id="btnCreateAccount" CssClass="Login__button" type="submit" OnClick="btnCreateAccount_Click" Text="Resgistrar" runat="server" />
 
                      <div class="Login__record" >
                          <input type="checkbox" name="Acepto" id="Acepto" required>
@@ -41,6 +41,7 @@
                          <a href="pepe">Términos y Condiciones</a>   
                      </div>
 
+                     <asp:Label ID="lblError" Text="" runat="server" />
 
                  </div>
        
