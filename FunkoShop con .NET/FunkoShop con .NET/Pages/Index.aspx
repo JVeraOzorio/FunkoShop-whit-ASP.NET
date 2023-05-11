@@ -10,9 +10,24 @@
             <a class="Hero__link" href="./pages/shop.html">SHOP</a>
         </article>
     </section>
+
     <main class="MainContainer container">
 
-        <section  class="Collection container">
+        <asp:Repeater id="rptRepeater" runat="server">
+            <ItemTemplate>
+                <section class="Collection container">
+                    <article class="Collection__content">
+                        <h3 class="Collection__title"> <%#Eval ("license.Description")  %></h3>
+                        <p class="Collection__text">Disfruta de una saga que sigue agregando personajes a su colección.</p>
+                        <a class="Collection__link" href="https://drive.google.com/file/d/1pVKF9R2yubWU6QBdoMf_d_YlAwjS8I3Y/view?usp=share_link">VER COLECCIÓN</a>
+                    </article>
+                    <picture class="Collection__cover">
+                        <img src='<%#Eval("urlImage")%> ' alt="Figura coleccionable de Grogu de la serie The Mandalorian" whidth="475" height="475">
+                    </picture>
+                </section>
+            </ItemTemplate>
+        </asp:Repeater>
+        <%--<section  class="Collection container">
             <article class="Collection__content">
                 <h3 class="Collection__title">Star Wars &The Mandalorian </h3>   
                 <p class="Collection__text">Disfruta de una saga que sigue agregando personajes a su colección.</p>
@@ -37,7 +52,7 @@
                 <a class="Collection__link" href="./pages/shop.html">VER COLECCIÓN</a>
             </article>
             <picture class="Collection__cover"><img src="./image/multimedia/harry-potter/snape-patronus-1.webp" alt="Figura coleccionable de patronus de Snape de la pelicula Harry Potter"></picture>
-        </section>
+        </section>--%>
 
         <section class="Slider container">
 
