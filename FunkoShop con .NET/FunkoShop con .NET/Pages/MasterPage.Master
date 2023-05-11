@@ -16,11 +16,15 @@
         <div>
             <header> <!-- comienzo de Header -->
         <nav class="navBar container">
-            <picture class=" navBar__logo">
-                <a href="Index.aspx">
-                      <img src="../imagenes/logo_light_horizontal.svg" alt="Isologotipo de la marca Funko Pop">
-                </a>
-            </picture>
+            
+                <asp:Label  id="lblWelcome" CssClass="navBar__link" Text="" runat="server" />
+                <picture class=" navBar__logo">
+                    <a href="Index.aspx">
+                          <img src="../imagenes/logo_light_horizontal.svg" alt="Isologotipo de la marca Funko Pop">
+                    </a>
+                </picture>
+            
+                          
             <ul class="navBar__menu">
                 <li class="navegador__menu-item whit-Submenu">
                     <a class="navBar__link whit-Icon" href="Shop.aspx">SHOP<iconify-icon icon="mdi:chevron-down"></iconify-icon></a>

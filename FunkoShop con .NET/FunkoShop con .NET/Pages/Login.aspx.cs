@@ -31,6 +31,7 @@ namespace FunkoShop_con.NET
 
            if (read)
             {
+                Session["loggedUser"] = negocio.getUser(email).Nombre;
                 Response.Redirect("Index.aspx");
             }else
             {

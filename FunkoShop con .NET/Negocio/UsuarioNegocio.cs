@@ -40,8 +40,6 @@ namespace Negocio
 
             try
             {
-                int request;
-
                 data.setStoreProcedure("SP_ValidarUsuario");
                 data.setParameter("@Email", email);
                 data.setParameter("@Contrasenia", password);
@@ -62,7 +60,52 @@ namespace Negocio
 
             
         }
-    
 
+        public Usuario getUser(String email)
+        {
+            AccesoDatos data = new AccesoDatos();
+            Usuario user = new Usuario();
+            if (email == null)
+            {
+                return null;
+            }
+
+
+            data.setQuery("select nombre, email, es_admin from Usuario where email = @Email");
+            data.setParameter("@Email", email);
+            data.executeReader();
+            while (data.Reader.Read())
+            {
+                user.Nombre = (string)data.Reader["nombre"];
+                user.Email = (string)data.Reader["email"];
+                user.EsAdmin = (bool)data.Reader["es_admin"];
+            }
+            data.CloseConnection();
+            return user;
+        }
+
+        public void AddUser(Usuario user)
+        {
+                AccesoDatos data = new AccesoDatos();
+
+
+            try
+            {
+                data.setStoreProcedure("SP_AgregarUsuario");
+                data.setParameter("@Nombre", user.Nombre);
+                data.setParameter("@Apellido", user.Apellido);
+                data.setParameter("@Email", user.Email);
+                data.setParameter("@Contrasenia", user.Password);
+                data.setParameter("@Patron", "FunkoShop");
+                data.setParameter("@EsAdmin", user.EsAdmin);
+                data.executeWriter();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
     }
 }

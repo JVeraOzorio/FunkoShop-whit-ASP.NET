@@ -1,0 +1,6 @@
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\HelpersLibrary\bin\Debug\HelpersLibrary.dll
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\HelpersLibrary\bin\Debug\HelpersLibrary.pdb
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\HelpersLibrary\obj\Debug\HelpersLibrary.csproj.AssemblyReference.cache
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\HelpersLibrary\obj\Debug\HelpersLibrary.csproj.CoreCompileInputs.cache
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\HelpersLibrary\obj\Debug\HelpersLibrary.dll
+C:\Users\gatoe\OneDrive\Escritorio\Desarrollo\C#\MaxiPRogramaNivel3\FunkoShop con .NET\HelpersLibrary\obj\Debug\HelpersLibrary.pdb

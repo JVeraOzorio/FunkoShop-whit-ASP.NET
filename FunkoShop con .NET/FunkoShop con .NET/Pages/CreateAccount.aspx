@@ -15,19 +15,19 @@
                 <div class="CreateAcount__content">
 
                     <label class="Login__text" for="Nombre">Nombre:</label>
-                    <asp:TextBox ID="txtNombre" CssClass="Login__inputTxt" placeholder="Nombre" Type="Nombre" nome="Nombre" required ="true"  runat="server" />
+                    <asp:TextBox ID="txtName" CssClass="Login__inputTxt" placeholder="Nombre" Type="Nombre" nome="Nombre" required ="true"  runat="server" />
                
                     <label class="Login__text" for="Apellido">Apellido:</label>
-                    <asp:TextBox ID="txtApellido" CssClass="Login__inputTxt" placeholder="Apellido" Type="Apellido" nome="Apellido" required ="true"  runat="server" />
+                    <asp:TextBox ID="txtLastName" CssClass="Login__inputTxt" placeholder="Apellido" Type="Apellido" nome="Apellido" required ="true"  runat="server" />
                 
                     <label class="Login__text" for="Email">Email:</label>
                     <asp:TextBox ID="txtEmail" CssClass="Login__inputTxt" placeholder="Email" Type="Email" nome="Email" required ="true"  runat="server" />
                 
                     <label class="Login__text" for="Contraseña">Contraseña:</label>
-                    <asp:TextBox ID="txtPassword" CssClass="Login__inputTxt" placeholder="Contraseña" Type="Contraseña" nome="Contraseña" required ="true"  runat="server" />
+                    <asp:TextBox ID="txtPassword" CssClass="Login__inputTxt" placeholder="Contraseña" Type="Contraseña" nome="Contraseña" TextMode="Password" required ="true"  runat="server" />
                 
                     <label class="Login__text" for="Repita Contraseña">Repita Contraseña:</label>
-                    <asp:TextBox ID="txtRepitaContraseña" CssClass="Login__inputTxt" placeholder="Repita Contraseña" Type="RepitaContraseña" nome="RepitaContraseña" required ="true"  runat="server" />
+                    <asp:TextBox ID="txtPasswordCopy" CssClass="Login__inputTxt" placeholder="Repita Contraseña" Type="RepitaContraseña" TextMode="Password" nome="RepitaContraseña" required ="true"  runat="server" />
                     
                  </div>
 

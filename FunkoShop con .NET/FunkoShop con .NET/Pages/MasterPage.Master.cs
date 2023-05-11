@@ -11,7 +11,11 @@ namespace FunkoShop_con.NET
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["loggedUser"] != null)
+            {
+                string usuario = Session["loggedUser"].ToString();
+                lblWelcome.Text = "Bienvenido " + usuario;
+            }
         }
     }
 }

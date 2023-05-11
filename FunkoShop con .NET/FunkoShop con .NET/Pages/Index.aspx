@@ -16,7 +16,7 @@
             <article class="Collection__content">
                 <h3 class="Collection__title">Star Wars &The Mandalorian </h3>   
                 <p class="Collection__text">Disfruta de una saga que sigue agregando personajes a su colección.</p>
-                <a class="Collection__link" href="./pages/shop.html">VER COLECCIÓN</a>
+                <a class="Collection__link" href="https://drive.google.com/file/d/1pVKF9R2yubWU6QBdoMf_d_YlAwjS8I3Y/view?usp=share_link">VER COLECCIÓN</a>
             </article>
             <picture class="Collection__cover"><img src="./image/multimedia/star-wars/baby-yoda-1.webp" alt="Figura coleccionable de Grogu de la serie The Mandalorian"></picture>
         </section>

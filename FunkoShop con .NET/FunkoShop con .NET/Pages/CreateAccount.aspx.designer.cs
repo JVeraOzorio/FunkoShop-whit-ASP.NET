@@ -15,22 +15,22 @@ namespace FunkoShop_con.NET
     {
 
         /// <summary>
-        /// Control txtNombre.
+        /// Control txtName.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombre;
+        protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
-        /// Control txtApellido.
+        /// Control txtLastName.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtApellido;
+        protected global::System.Web.UI.WebControls.TextBox txtLastName;
 
         /// <summary>
         /// Control txtEmail.
@@ -51,13 +51,13 @@ namespace FunkoShop_con.NET
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
 
         /// <summary>
-        /// Control txtRepitaContraseña.
+        /// Control txtPasswordCopy.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtRepitaContraseña;
+        protected global::System.Web.UI.WebControls.TextBox txtPasswordCopy;
 
         /// <summary>
         /// Control btnCreateAccount.

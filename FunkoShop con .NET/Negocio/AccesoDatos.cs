@@ -55,6 +55,21 @@ namespace Negocio
             }
         }
 
+        public void executeWriter()
+        {
+                 command.Connection = connection;
+            try
+            {
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
         public void CloseConnection()
         {
             if(reader != null)
