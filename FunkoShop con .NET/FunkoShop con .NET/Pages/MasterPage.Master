@@ -78,6 +78,8 @@
             </nav>
         <p class="Footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
     </footer>
+   <script src="../JS/Carrousel.js"></script>
+
         </div>
     </form>
 </body>

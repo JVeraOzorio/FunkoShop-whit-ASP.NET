@@ -17,9 +17,11 @@ namespace FunkoShop_con.NET
         {
             ProductoNegocio business = new ProductoNegocio();
             productList = business.ProductList();
-            rptRepeater.DataSource = productList;
+            List<Producto> listOfThree = productList.Take(3).ToList();
+            rptRepeater.DataSource = listOfThree;
             rptRepeater.DataBind();
-
+            rptSlider.DataSource = productList;
+            rptSlider.DataBind();
         }
     }
 }
