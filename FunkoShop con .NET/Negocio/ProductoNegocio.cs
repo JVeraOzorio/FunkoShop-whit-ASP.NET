@@ -51,6 +51,14 @@ namespace Negocio
 
         }
         
+        public Producto getProduct(string codigo)
+        {   
+            List<Producto> productos= new List<Producto>();
+            productos = ProductList();
+            Producto productoEncontrado = productos.FirstOrDefault(p => p.productCode == codigo);
 
+            return productoEncontrado;
+          
+        }
     }
 }

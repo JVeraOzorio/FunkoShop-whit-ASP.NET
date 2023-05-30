@@ -1,35 +1,31 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/MasterPage.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="FunkoShop_con.NET.Index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/MasterPage.Master" AutoEventWireup="true" CodeBehind="DetalleProducto.aspx.cs" Inherits="FunkoShop_con.NET.Pages.DetalleProducto" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-      <section class= "Hero">
-        <article class="Hero__content container">
-            <h3 class="Hero__title">Nuevos Ingresos</h3>
-            <p class="Hero__text"> Descubrí el próximo Funko Pop de tu colección</p>
-            <a class="Hero__link" href="./pages/shop.html">SHOP</a>
-        </article>
-    </section>
 
-    <main class="MainContainer container">
 
-        <asp:Repeater id="rptRepeater" runat="server">
-            <ItemTemplate>
-                <section class="Collection container">
-                    <article class="Collection__content">
-                        <h3 class="Collection__title"> <%#Eval ("license.Description")  %></h3>
-                        <p class="Collection__text"><%#Eval("description")%></p>
-                        <a class="Collection__link" href="https://drive.google.com/file/d/1pVKF9R2yubWU6QBdoMf_d_YlAwjS8I3Y/view?usp=share_link">VER COLECCIÓN</a>
-                    </article>
-                    <picture class="Collection__cover">
-                        <asp:Image CssClass="imgProducto" ImageUrl='<%#Eval("urlImage")%>' width="100%" runat="server" />
-                    </picture>
-                </section>
-            </ItemTemplate>
-        </asp:Repeater>
-
-        <section class="Slider Carrousel container">
-            <h2 class="Slider__title">últimos lazamientos</h2>
+    <section class="Collection container itemShop">
+            <article class="Collection__content itemShop__info" >
+                <asp:Label CssClass="Card-Item__license" ID="lblLicense" runat="server" Text=""></asp:Label>
+                <asp:Label CssClass="Card-Item__name" ID="lblNombre" runat="server" ></asp:Label>
+                <asp:Label CssClass="Card-Item__price" ID="lblDescription" runat="server"></asp:Label>
+                <asp:Label CssClass="Card-Item__price" ID="lblPrecio" runat="server"></asp:Label>
+                <asp:Label CssClass="Card-Item__price" ID="lblStock" runat="server"><a href="">Ver métodos de pago</a> - 3 cuotas sin interés<</asp:Label>
+                <div class="itemShop__buy">
+                    
+                    <asp:Button CssClass="itemShop__buy-btnSum" ID="btnRestar" runat="server" Text="-"  />
+                    <asp:TextBox ID="txtCantidad" runat="server" Text="0" CssClass="autoSizeInput counter"></asp:TextBox>
+                    <asp:Button CssClass="itemShop__buy-btnSum" ID="btnSumar" runat="server" Text="+"/>
+                    <asp:Button CssClass="itemShop__buy-btnAddToCart" ID="btnAgregar" runat="server" Text="Agregar al carrito"  />
+                </div>
+            </article>
+            <picture class="Collection__cover">
+                <asp:Image ID="imgProducto" runat="server" CssClass="Collection__cover-img" width="100%" />
+            </picture>
+        </section>
+     <section class="Slider Carrousel container">
+            <h2 class="Slider__title">Productos Relacionados</h2>
                                     <a href="DetalleProducto.aspx">DetalleProducto.aspx</a>
             <div class="Slider__items Carrousel__CardContainer">
                 <asp:Repeater ID="rptSlider" runat="server">
@@ -58,5 +54,5 @@
                 <li class="point"></li>
             </ul>
         </section>
-    </main>
+
 </asp:Content>

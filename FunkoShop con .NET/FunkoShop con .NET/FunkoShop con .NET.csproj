@@ -75,6 +75,7 @@
     <Content Include="Pages\CreateAccount.aspx" />
     <Content Include="imagenes\funkos-banner.jpeg" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\DetalleProducto.aspx" />
     <Content Include="Pages\Index.aspx" />
     <Content Include="index.css" />
     <Content Include="Pages\Login.aspx" />
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="Pages\Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DetalleProducto.aspx.cs">
+      <DependentUpon>DetalleProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DetalleProducto.aspx.designer.cs">
+      <DependentUpon>DetalleProducto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
